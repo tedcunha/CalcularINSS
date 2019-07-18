@@ -1,0 +1,437 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Ricardo\\Projetos\\CalularINSS\\Services\\Lab.Service.API\\Lab.Service.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Ricardo\\Projetos\\CalularINSS\\Applications\\Lab.Application\\Lab.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ricardo\\Projetos\\CalularINSS\\Applications\\Lab.Application\\Lab.Application.csproj",
+        "projectName": "Lab.Application",
+        "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Applications\\Lab.Application\\Lab.Application.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Applications\\Lab.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Ricardo\\Projetos\\CalularINSS\\Data\\Lab.Data\\Lab.Data.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Data\\Lab.Data\\Lab.Data.csproj"
+              },
+              "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Ricardo\\Projetos\\CalularINSS\\CrossCutting\\Lab.CrossCutting.IoC\\Lab.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ricardo\\Projetos\\CalularINSS\\CrossCutting\\Lab.CrossCutting.IoC\\Lab.CrossCutting.IoC.csproj",
+        "projectName": "Lab.CrossCutting.IoC",
+        "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\CrossCutting\\Lab.CrossCutting.IoC\\Lab.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Ricardo\\Projetos\\CalularINSS\\CrossCutting\\Lab.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Ricardo\\Projetos\\CalularINSS\\Applications\\Lab.Application\\Lab.Application.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Applications\\Lab.Application\\Lab.Application.csproj"
+              },
+              "C:\\Ricardo\\Projetos\\CalularINSS\\Data\\Lab.Data\\Lab.Data.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Data\\Lab.Data\\Lab.Data.csproj"
+              },
+              "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Ricardo\\Projetos\\CalularINSS\\Data\\Lab.Data\\Lab.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ricardo\\Projetos\\CalularINSS\\Data\\Lab.Data\\Lab.Data.csproj",
+        "projectName": "Lab.Data",
+        "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Data\\Lab.Data\\Lab.Data.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Data\\Lab.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj",
+        "projectName": "Lab.Domain.Core",
+        "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj",
+        "projectName": "Lab.Domain",
+        "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\Lab.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Ricardo\\Projetos\\CalularINSS\\Services\\Lab.Service.API\\Lab.Service.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ricardo\\Projetos\\CalularINSS\\Services\\Lab.Service.API\\Lab.Service.API.csproj",
+        "projectName": "Lab.Service.API",
+        "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Services\\Lab.Service.API\\Lab.Service.API.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Services\\Lab.Service.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Ricardo\\Projetos\\CalularINSS\\Applications\\Lab.Application\\Lab.Application.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Applications\\Lab.Application\\Lab.Application.csproj"
+              },
+              "C:\\Ricardo\\Projetos\\CalularINSS\\CrossCutting\\Lab.CrossCutting.IoC\\Lab.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\CrossCutting\\Lab.CrossCutting.IoC\\Lab.CrossCutting.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "jquery-iframe-auto-height.MVC": {
+              "target": "Package",
+              "version": "[0.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

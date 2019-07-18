@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj",
+        "projectName": "Lab.Domain.Core",
+        "projectPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\Lab.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Ricardo\\Projetos\\CalularINSS\\Domain\\Lab.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
